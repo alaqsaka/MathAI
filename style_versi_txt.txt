@@ -1,0 +1,69 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+p{
+    margin: 0.5rem 0;
+}
+
+img { 
+    width: 100%;
+}
+
+/*Showcase*/
+
+.showcase-logo img{
+    width: 170px;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.showcase-logo a{
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    /*Membuat border dari logo Sign In*/
+    display: inline-block;
+    background: #ffdf2b; /*Ngasih warna ke button*/
+    padding: 0.4rem 1.3rem; /*Memberikan ukuran ke kotak*/
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    /*Menghilangkan garis bawah dari text (Membuat text dari Sign in)*/
+    text-decoration: none;
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 1rem;
+    color: #ffff;
+}
+
+.showcase-content {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+/*Showcase*/
