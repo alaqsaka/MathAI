@@ -371,7 +371,7 @@ img {
         height: 95vh;
         position: relative;
         background-size: cover;
-        background: url('/img/background5.jpg') no-repeat center center/cover; 
+        background: url('img/background5.jpg') no-repeat center center/cover; 
     }
 
 
