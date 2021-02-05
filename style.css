@@ -342,6 +342,7 @@ img {
 @media screen and (max-width: 1200px){
     .showcase-top img{
       float: left;
+      
       left: 10rem;
     }
 
@@ -358,6 +359,15 @@ img {
     .tab-1-content-inner img{
         margin: 0 auto;
     }
+
+    .btn-lg {
+      
+        margin: 0 auto;
+    }
+
+    .btn{
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -371,13 +381,17 @@ img {
         height: 95vh;
         position: relative;
         background-size: cover;
-        background: url('img/background5.jpg') no-repeat center center/cover; 
+        background-image: url('/img/background5.jpg') no-repeat center center/cover; 
     }
 
+    .showcase-top img{
+        display: flex;
+        margin-top: 2rem;
+        margin-left: -3rem;
+        
+    }
 
-   .showcase-top a{
-        display: none;
-   }
+   
 
    .showcase-content h1 {
        margin: 0 auto;
@@ -409,4 +423,5 @@ img {
 
 @media screen and (max-width:450){
     
+
 }
